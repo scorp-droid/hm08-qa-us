@@ -1,7 +1,7 @@
 exports.config = {
   runner: "local",
   specs: ["./test/specs/**/*.js"],
-//   specs: ["hm08-qa-us\testspecscreateAnOrder.e2e.js"],
+  //   specs: ["hm08-qa-us\testspecscreateAnOrder.e2e.js"],
   exclude: [
     // 'path/to/excluded/files'
   ],
@@ -28,7 +28,7 @@ exports.config = {
   logLevel: "error",
   bail: 0,
   baseUrl:
-    "https://f935703c-84d9-4d70-afbc-dec82b13a4ef.serverhub.tripleten-services.com",
+    "https://3eb3b692-d5ec-4cfa-b34b-3dd85d2c1b32.serverhub.tripleten-services.com",
   waitforTimeout: 10000,
   connectionRetryTimeout: 120000,
   connectionRetryCount: 3,
